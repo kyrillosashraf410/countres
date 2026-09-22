@@ -5,26 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <title>Document</title>
+    <title>countres</title>
   </head>
   <body>
-    <div>
-      <div class="buttons">
-        <button type="button" class="btn btn-danger" data-img="Egyptpng.png">
-          Egypt
-        </button>
-        <button type="button" class="btn btn-success" data-img="palasten.png">
-          palstan
-        </button>
-        <button type="button" class="btn btn-warning" data-img="moroco.png">
-          moroco
-        </button>
-        <button type="button" class="btn btn-warning" data-img="">
-          DeleteCountry
-        </button>
+    <div class="buttons">
+      <button class="btn btn-danger" data-content="egypt-data">EGYPT</button>
+      <button class="btn btn-success" data-content="palasten-data">
+        PALASTEN
+      </button>
+      <button class="btn btn-warning" data-content="moroco-data">MOROCO</button>
+      <button class="btn btn-dark" data-content="delete">Delete Countru</button>
+    </div>
+
+    <div class="screens">
+      <div id="egypt-data" class="d-none city">
+        <h1>Egypt</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
+          perspiciatis!
+        </p>
+        <img src="Egyptpng.png" alt="" />
       </div>
-      <div class="screen">
-        <img class="w-100" src="" alt="" />
+      <div id="palasten-data" class="d-none city">
+        <h1>PALASTEN</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
+          perspiciatis!
+        </p>
+        <img src="palasten.png" alt="" />
+      </div>
+      <div id="moroco-data" class="d-none city">
+        <h1>MOROCO</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
+          perspiciatis!
+        </p>
+        <img src="moroco.png" alt="" />
       </div>
     </div>
 
